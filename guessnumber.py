@@ -10,12 +10,11 @@ while True:
 	if guess == r:
 		print('You are right!', 'Times tried:', count)  
 		break
-	else: 
-		if guess > r:
-			print('Your guess is > r.', 'Times tried:', count, 'Try again!')
-
-		elif guess < r:
-			print('Your guess is < r.', 'Times tried:', count,  'Try again!')
+	elif guess > r:
+		print('Your guess is > r.')
+	elif guess < r:
+		print('Your guess is < r.')
+	print('Times tried:', count, 'Try again!')
 
 
 
